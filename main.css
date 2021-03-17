@@ -540,8 +540,11 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
     body{
-        background: url("images/sitebg.jpg") no-repeat center fixed;
-        background-size: cover;
+        
+        animation: change 10s infinite;
+    background: url("images/sitebg2.jpg") no-repeat center fixed;
+    background-size: auto;
+    opacity: .75;
     }
     .landing-text h1{
         font-size: 15rem;
