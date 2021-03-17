@@ -4,23 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yazan Masoud</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a06b074960.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <script src="three.min.js"></script>
-    <script>
-        let scene, camera, renderer;
-        function init() {
-            scene = new THREE.scene();
-            camera = new THREE.perspectiveCamera(60,window.innterwidth / window.innerHeight, 1, 1000);
-            camera.position.z = 1;
-            camera.rotation.x = Math.PI/2;
-        }
-    </script>
     <header>
         <div class="menu-toggler">
             <div class="bar half start"></div>
@@ -234,7 +224,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
