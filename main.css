@@ -440,7 +440,7 @@ li{
 
 .timeline .date::before{
     content: attr(data-date);
-    left: -21rem;
+    left: -23rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
@@ -599,7 +599,7 @@ input[type="submit"]:hover{
     }
 
     .timeline .date::before{
-        left: -20rem;
+        left: -21rem;
     }
 
     .timeline .date::after{
