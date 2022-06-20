@@ -329,6 +329,11 @@ li{
 
 /*Start portfolio*/
 
+video{
+    width: 50rem;
+    height: auto;
+}
+
 .portfolio-item{
     display: flex;
     align-items: center;
